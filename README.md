@@ -1,39 +1,49 @@
 ### Hi there 👋 I'm Sergio.
-**Systems Engineer & Data Specialist**
+**Systems Engineer, Full-Stack Developer & Linux Hardener.**
 
 [![AUR Maintainer](https://img.shields.io/badge/Arch_Linux-AUR_Maintainer-1793d1?style=for-the-badge&logo=arch-linux&logoColor=white)](https://aur.archlinux.org/packages?K=elmundos&SeB=m)
 
-🚀 **Core Competencies:**
-* **Infrastructure:** Linux Expert (LFS, Arch AUR Maintainer), Docker, Enterprise Hardware Management (Xeon/SAS).
-* **Data Engineering:** Python, SQL (PostgreSQL), Azure Cloud & Databricks Architecture.
-* **Development:** Rust (Contributor to @spotatui), Python, Bash Scripting.
+I provide high-performance technical solutions by bridging the gap between sophisticated software development and rock-solid system infrastructure. Whether it's compiling a custom Linux Kernel or building a Next.js frontend, I focus on **efficiency, security, and the "metal" underneath.**
 
-🛠️ **Current Focus:** Optimization of high-performance data pipelines on Hybrid Cloud infrastructures.
+🚀 **The Stack:**
+* **Systems & Low-Level:** Linux (LFS, Arch), Rust (Contributor to @spotatui), C/C++, Bash.
+* **Data & Backend:** Python (FastAPI/Django), SQL (PostgreSQL), Azure Cloud & Databricks (Architecture Focus).
+* **Web & Full-Stack:** Next.js, React, TypeScript.
+* **Infrastructure:** Docker, Wireguard, Enterprise Hardware (Xeon/SAS).
 
 ---
 
-## 💼 Private Portfolio & Engineering Highlights
+## 💼 Commercial Portfolio (Client Work)
+*Most of my code is proprietary (NDA), but here are the key architectures I've built:*
 
-Most of my commercial work is proprietary (NDA protected). Below is a breakdown of key architectures I have designed and maintain:
+### 🏢 Real Estate Data Engine (The "Big One")
+* **Context:** Massive management system for a firm handling **400+ residential communities**.
+* **Engineering:**
+    * Migrated legacy data into a clean PostgreSQL architecture.
+    * Wrote Python ETL pipelines and optimized SQL queries, reducing report latency by **~60%**.
+    * Handles thousands of financial records and incident reports daily.
 
-### 🏢 Real Estate Data Engine (Python/PostgreSQL)
-* **Scope:** Critical management system for a firm handling **400+ residential communities**.
-* **Architecture:** Designed a complex relational database (PostgreSQL) handling thousands of tenants, financial records, and incident reports.
-* **Key Engineering:**
-    * Built **ETL pipelines** in Python to sanitize and migrate massive datasets from legacy systems.
-    * Optimized SQL queries to reduce report generation latency by **~60%**.
-    * Implemented strict **Data Integrity** checks for financial transactions.
+### 🖥️ Custom Infrastructure Dashboard
+* **Context:** Full-stack monitoring solution delivered to a client for server fleet management.
+* **Tech:** Docker, Bash, Systemd.
+* **Engineering:** Real-time visualization of resources (RAM/CPU/IO), Docker health checks, and automated alert systems.
 
-### ⚡ High-Concurrency Automation (RPA)
-* **Scope:** Automated reservation system for high-demand services.
-* **Tech:** Python, Selenium/Playwright, Distributed Cron Scheduling.
-* **Key Engineering:**
-    * Developed logic to handle **Session Management** and evade simple bot detection.
-    * Implemented headless browser orchestration for background execution on Linux servers.
+### ⚡ High-Concurrency Automation
+* **Context:** "Grey Hat" style automation for high-demand booking services (Gyms/Events).
+* **Tech:** Python, Selenium/Playwright.
+* **Engineering:** Implemented session management, header rotation, and logic to evade bot detection.
 
-### 🖥️ Infrastructure Monitoring Dashboard
-* **Scope:** Full-stack monitoring solution for self-hosted infrastructure (Enterprise Xeon Hardware/Debian).
-* **Tech:** Docker, Bash, Systemd services.
-* **Key Engineering:**
-    * Real-time monitoring of system resources (RAM/CPU/IO) and Docker container health.
-    * Automated **Backup & Disaster Recovery** scripts for critical databases.
+---
+
+## 🏠 The Homelab (My Production Environment)
+*I don't just deploy to the cloud; I host on the metal.*
+
+* **Hardware:** Running on **Enterprise Intel Xeon & RDIMM RAM**.
+* **Networking:** Wireguard VPN tunnels for secure remote access.
+* **Services:** * **VideoVisionary:** Custom web hosting and streaming architecture.
+    * **Mail & Privacy:** Self-hosted disposable email tools and media servers.
+* **Security:** Hardened with Fail2Ban, UFW, and strict network segmentation.
+
+---
+
+> *"I adapt to any environment. From high-level UI/UX logic to low-level kernel debugging, I make it run."*
