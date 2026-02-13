@@ -7,3 +7,5 @@
 * **Coding:** Rust (Contributor to @spotatui), Python.
 
 🛠️ **Current Focus:** Building high-performance data pipelines on Linux infrastructure.
+
+[![AUR Maintainer](https://img.shields.io/badge/Arch_Linux-AUR_Maintainer-1793d1?style=for-the-badge&logo=arch-linux&logoColor=white)](https://aur.archlinux.org/packages?K=elmundos&SeB=m)
